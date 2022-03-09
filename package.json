@@ -1,0 +1,25 @@
+{
+    "name": "Neural Networks",
+    "version": "0.0.0",
+    "description": "A repository for methods with neural networks",
+    "author": "RLogik",
+    "contributors": [ "github.com/RLogik" ],
+    "license": "MIT",
+    "keywords": [
+        "python",
+        "knn",
+        "ann"
+    ],
+    "main": "src/main.py",
+    "scripts": {
+        "clean": "make --always-make clean",
+        "build": "make --always-make setup",
+        "start": "make --always-make run",
+        "test": "make --always-make tests"
+    },
+    "engines": {
+        "python": ">=3.10.0"
+    },
+    "dependencies": {
+    }
+}
